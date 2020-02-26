@@ -3,6 +3,11 @@ language: android
 jdk: oraclejdk8
 
 
+android:
+  components:
+    -build-tools-26.1.0
+
+
 before_install:
             - chmod +x gradelw
 
