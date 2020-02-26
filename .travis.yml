@@ -9,7 +9,7 @@ android:
 
 
 before_install:
-            - chmod +x gradelw
+            - chmod +x gradlew
 
 deploy:
   provider: releases
