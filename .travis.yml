@@ -4,7 +4,7 @@ jdk: oraclejdk8
 
 
 before_install:
-            -chmod +x gradelw
+            - chmod +x gradelw
 
 deploy:
   provider: releases
